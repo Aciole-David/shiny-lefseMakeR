@@ -38,5 +38,11 @@ otb=data.frame(lapply(otb, function(x) {
   }))
 
 
-#merge header and body
+# ////// 4 Merge header and body
+#merge parts
 final=rbind(oth,otb)
+
+#write output file
+write.table(x = final, file = "lefse-input.tabular", sep = "\t", col.names = F, row.names = F)
+
+
