@@ -24,7 +24,7 @@ oth[1,1]="Class"
 
 # ////// 3 Transform body
 #read otutable, skip 1st line, get body
-otb=read.delim2(file = "2-input-table.txt", check.names = F, header = F, skip = 1)
+otb=read.delim2(file = "2-input-table.txt", check.names = F, header = F, skip = 2)
 
 #copy taxonomy  (last column) to 1st column 
 otb[,1]=otb[ , ncol(otb)]
@@ -32,11 +32,11 @@ otb[,1]=otb[ , ncol(otb)]
 #remove last column (the copied taxonomy)
 otb=otb[,-ncol(otb)]
 
-tax=otb[,1]
-
-#idk if usable yet:
-#replace '|t' with ','
-
-otb <- data.frame(lapply(otb, function(x) {
-  gsub(";", ",", x)
+#Replace "; " with "|"
+otb=data.frame(lapply(otb, function(x) {
+  gsub("; ", "|", x)
   }))
+
+
+#merge header and body
+final=rbind(oth,otb)
