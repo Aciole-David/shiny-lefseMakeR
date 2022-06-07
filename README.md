@@ -1,2 +1,6 @@
-# shiny-lefseMakeR
-shiny app to easily build input files for LEfSe from qiime txt otutable 
+# lefseMakeR
+A shiny web-app to easily build input files for LEfSe from qiime txt otutable.
+
+run it in your web browser at https://aciole-d.shinyapps.io/lefsemaker/
+
+
