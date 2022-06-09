@@ -1,0 +1,12 @@
+# Constructed from biom file															
+#OTU ID	control_1	control_2	control_3	control_4	control_5	control_6	control_7	treated_1	treated_2	treated_3	treated_4	treated_5	treated_6	treated_7	taxonomy
+otu_1	74	7	0	50	58	10	32	13	18	27	23	71	10	38	"k__Domain; p__Phylum; c__Class; o__Order; f__Family; g__Genus; s__Species"
+otu_2	42	29	34	90	80	8	31	53	99	77	88	76	82	77	"k__Domain; p__Phylum; c__Class; o__Order; f__Family; g__Genus; s__Species"
+otu_3	16	97	70	42	52	19	20	55	0	27	47	13	31	16	"k__Domain; p__Phylum; c__Class; o__Order; f__Family; g__Genus; s__Species"
+otu_4	86	4	98	32	70	89	45	3	100	97	73	0	76	7	"k__Domain; p__Phylum; c__Class; o__Order; f__Family; g__Genus; s__Species"
+otu_5	59	44	64	10	54	58	18	23	83	4	53	68	93	30	"k__Domain; p__Phylum; c__Class; o__Order; f__Family; g__Genus; s__Species"
+otu_6	26	84	36	52	89	88	43	7	22	46	47	59	87	9	"k__Domain; p__Phylum; c__Class; o__Order; f__Family; g__Genus; s__Species"
+otu_7	42	53	37	88	31	99	25	74	45	29	65	40	4	70	"k__Domain; p__Phylum; c__Class; o__Order; f__Family; g__Genus; s__Species"
+otu_8	93	19	97	45	87	81	68	5	27	61	46	60	25	46	"k__Domain; p__Phylum; c__Class; o__Order; f__Family; g__Genus; s__Species"
+otu_9	6	81	82	76	57	39	75	84	60	47	53	78	85	34	"k__Domain; p__Phylum; c__Class; o__Order; f__Family; g__Genus; s__Species"
+otu_10	97	65	61	71	86	79	81	38	36	20	0	12	33	4	"k__Domain; p__Phylum; c__Class; o__Order; f__Family; g__Genus; s__Species"
