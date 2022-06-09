@@ -95,7 +95,7 @@ server <- function(input, output, session) {
     oth=oth[,-ncol(oth)]
     oth=rbind(NA, oth)
 
-    oth[1,]=data.table::transpose(mm[match(x=oth[2,], table = mm$name),])[2,]
+    oth[1,]=data.table::transpose(mm[match(x=oth[2,], table = mm[,1]),])[2,]
 
     oth[1,1]="Class"
 
